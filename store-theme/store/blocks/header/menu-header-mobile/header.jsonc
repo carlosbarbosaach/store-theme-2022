@@ -1,0 +1,72 @@
+{
+    // "header": {
+    //     "blocks": [
+    //         "header-layout.mobile"
+    //     ]
+    // },
+    // "header.full": {
+    //     "blocks": [
+    //         "header-layout.mobile"
+    //     ]
+    // },
+    "header-layout.mobile": {
+        "children": [
+            "sticky-layout#1-mobile"
+        ]
+    },
+    "sticky-layout#1-mobile": {
+        "children": [
+            "flex-layout.row#1-mobile"
+            // "flex-layout.row#2-mobile"
+        ]
+    },
+    "flex-layout.row#1-mobile": {
+        "children": [
+            "drawer",
+            "logo#mobile",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    // "flex-layout.row#2-mobile": {
+    //     "children": [
+    //         "search-bar"
+    //     ],
+    //     "props": {
+    //         "blockClass": "main-header-mobile2"
+    //     }
+    // },
+    "logo#mobile": {
+        "props": {
+            "blockClass": "logo-mobile",
+            "title": "Logo",
+            "href": "/",
+            "url": "http://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+            "width": "160"
+        }
+    },
+    // "search-bar": {
+    //     "props": {
+    //         "placeholder": "Oque você procura?",
+    //         "autocompleteFullWidth": true
+    //     }
+    // },
+    "drawer": {
+        "props": {
+            "blockClass": "menu-drawer-mobile"
+        },
+        "children": [
+            "menu#drawer"
+        ]
+    },
+    "menu#drawer": {
+        "children": [
+            "vtex.menu@2.x:menu#Menu-mobile"
+        ]
+    }
+}

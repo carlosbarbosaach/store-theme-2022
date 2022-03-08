@@ -1,0 +1,28 @@
+.flexRow--main-header2 {
+    border-top: 1px solid #E6E6E6;
+    background: #eeeeee;
+    box-sizing: border-box;
+    display: block;
+}
+
+.flexRow--main-header {
+    background: #eeee;
+}
+
+.flexRow--main-header :global(.vtex-input__suffix) {
+    background-color: rgb(83, 66, 241);
+    border-radius: 0;
+    padding-right: 11px;
+}
+
+.flexRow--main-header :global(.vtex-input-prefix__group) {
+    border-radius: 0;
+    height: 40px;
+}
+
+.flexColChild--login-perfil :global(.vtex-button) {
+    background-image: url(https://images-ext-1.discordapp.net/external/hSLDKFje8Eb_0Nv8v8aDPBKMtSXIY8JaRTjiG3ZmpWQ/https/avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137%25E2%2580%25A6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 12px;
+}

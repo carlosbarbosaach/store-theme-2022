@@ -1,0 +1,10 @@
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+    height: 26px;
+    width: 28px;
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Grupo4794___5f9e35fb2ab6d73637511535c8b482be.png);
+}
+
+:global(.vtex-minicart-2-x-cartIcon){
+    display: none;
+}
+

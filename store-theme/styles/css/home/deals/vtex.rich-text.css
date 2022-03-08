@@ -1,0 +1,11 @@
+.container--deals {
+    color: rgb(40, 40, 40);
+}
+
+.paragraph--deals {
+    padding-left: 12px;
+    font-size: 12px;
+    text-align: left;
+    color: #25282a;
+    text-transform: uppercase;
+}

@@ -1,0 +1,196 @@
+.styledLinkContent--menu-mobile-novidade {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #25282a;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-novidade {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-mobile-outlet {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #441afa;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-outlet {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-depart-all {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #25282a;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.styledLinkContent--menu-mobile-conta {
+  text-align: left;
+    letter-spacing: 1.4px;
+    color: #441afa;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-conta {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-mobile-atendimento {
+  text-align: left;
+    letter-spacing: 1.4px;
+    color: #441afa;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-atendimento {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-mobile-parceira {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #25282a;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-parceira {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-mobile-representante {
+    text-align: left;
+    letter-spacing: 1.4px;
+    color: #25282a;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-representante {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.styledLinkContent--menu-mobile-revendedor {
+    text-align: left;
+    letter-spacing: 1.4px;
+    color: #25282a;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.styledLinkContainer--menu-mobile-revendedor {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.menuItem--menu-mobile-novidade {
+  border-bottom: 1px solid #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-outlet {
+  border-bottom: 1px solid #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-conta {
+  border-bottom: 1px solid #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-atendimento {
+  border-bottom: 1px solid #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-parceira {
+    background:  #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-representante {
+  background:  #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-mobile-revendedor {
+  background:  #eeeeee;
+    padding: 10px 0px;
+}
+
+.menuItem--menu-depart-all {
+  border-bottom: 1px solid #eeeeee;
+    padding: 10px 0px;
+}
+
+.styledLinkContent--submenu-category {
+    text-align: left;
+    color: #25282a;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.styledLinkContainer--submenu-category {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.submenuAccordion {
+  width: 100%;
+  display: flex;
+}
+
+.menuItem--submenu-category {
+  padding: 10px 0px 10px 10px;
+}
+
+.menuContainerNav {
+  width: 100%;
+}
+
+.menuItem--menu-depart-all--isOpen 
+.styledLinkContent--menu-depart-all {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #441AFA;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menuItem--submenu-produto {
+  padding: 5px 0px 5px 20px;
+}
+
+.styledLinkContent--submenu-produto {
+  text-align: left;
+  color: #8c8f90;
+  font-size: 14px;
+}
+
+.menuItem--submenu-category--isOpen
+.styledLinkContent--submenu-category {
+  text-align: left;
+  letter-spacing: 1.4px;
+  color: #441AFA;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+

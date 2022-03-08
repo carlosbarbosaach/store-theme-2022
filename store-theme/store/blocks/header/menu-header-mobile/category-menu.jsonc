@@ -1,0 +1,457 @@
+{
+    "vtex.menu@2.x:menu#Menu-mobile": {
+        "props": {
+            "blockClass": "menu-drawer",
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#novidade",
+            "menu-item#outlet",
+            "menu-item#depart1",
+            "menu-item#depart2",
+            "menu-item#conta",
+            "menu-item#atendimento",
+            "menu-item#loja-parceira",
+            "menu-item#representante",
+            "menu-item#revendedor"
+        ]
+    },
+    "menu-item#novidade": {
+        "props": {
+            "blockClass": "menu-mobile-novidade",
+            "id": "menu-item-category-novidades",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "NOVIDADES",
+                "text": "NOVIDADES"
+            }
+        }
+    },
+    "menu-item#outlet": {
+        "props": {
+            "blockClass": "menu-mobile-outlet",
+            "id": "menu-item-category-novidade",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "OUTLET",
+                "text": "OUTLET"
+            }
+        }
+    },
+    "menu-item#depart1": {
+        "props": {
+            "blockClass": "menu-depart-all",
+            "itemProps": {
+                "tagTitle": "Departamento 1",
+                "text": "Departamento 1"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#depart1"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#depart1": {
+        "children": [
+            "vtex.menu@2.x:menu#menu-depart1-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-depart1-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category1",
+            "menu-item#category2",
+            "menu-item#category3"
+        ]
+    },
+    "menu-item#category1": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "Category 1.1",
+                "text": "Category 1.1"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#produto"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#produto": {
+        "children": [
+            "vtex.menu@2.x:menu#menu-produto-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-produto-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#produto1",
+            "menu-item#produto2",
+            "menu-item#produto3"
+        ]
+    },
+    "menu-item#produto1": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 1.0",
+                "text": "Produto 1.0"
+            }
+        }
+    },
+    "menu-item#produto2": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 2.0",
+                "text": "Produto 2.0"
+            }
+        }
+    },
+    "menu-item#produto3": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 3.0",
+                "text": "Produto 3.0"
+            }
+        }
+    },
+    "menu-item#category2": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "Category 1.2",
+                "text": "Category 1.2"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#produto"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#produto": {
+        "children": [
+            "vtex.menu@2.x:menu#menu-produto-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-produto-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#produto4",
+            "menu-item#produto5",
+            "menu-item#produto6"
+        ]
+    },
+    "menu-item#produto4": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-4",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 4.0",
+                "text": "Produto 4.0"
+            }
+        }
+    },
+    "menu-item#produto5": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-5",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 5.0",
+                "text": "Produto 5.0"
+            }
+        }
+    },
+    "menu-item#produto6": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-6",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 6.0",
+                "text": "Produto 6.0"
+            }
+        }
+    },
+    "menu-item#category3": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-3",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "Category 1.3",
+                "text": "Category 1.3"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#produto"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#produto": {
+        "children": [
+            "vtex.menu@2.x:menu#menu-produto-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-produto-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#produto7",
+            "menu-item#produto8",
+            "menu-item#produto9"
+        ]
+    },
+    "menu-item#produto7": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-7",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 4.0",
+                "text": "Produto 4.0"
+            }
+        }
+    },
+    "menu-item#produto8": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-8",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 5.0",
+                "text": "Produto 5.0"
+            }
+        }
+    },
+    "menu-item#produto9": {
+        "props": {
+            "blockClass": "submenu-produto",
+            "id": "menu-item-produto-9",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "produto 6.0",
+                "text": "Produto 6.0"
+            }
+        }
+    },
+    "menu-item#depart2": {
+        "props": {
+            "blockClass": "menu-depart-all",
+            "itemProps": {
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#depart2"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#depart2": {
+        "children": [
+            "vtex.menu@2.x:menu#menu-depart2-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-depart2-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category4",
+            "menu-item#category5",
+            "menu-item#category6"
+        ]
+    },
+    "menu-item#category4": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/clothing/d",
+                "noFollow": true,
+                "tagTitle": "Category 1.1",
+                "text": "Category 1.1"
+            }
+        }
+    },
+    "menu-item#category5": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/clothing/d",
+                "noFollow": true,
+                "tagTitle": "Category 1.2",
+                "text": "Category 1.2"
+            }
+        }
+    },
+    "menu-item#category6": {
+        "props": {
+            "blockClass": "submenu-category",
+            "id": "menu-item-category-3",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/clothing/d",
+                "noFollow": true,
+                "tagTitle": "Category 1.3",
+                "text": "Category 1.3"
+            }
+        }
+    },
+    "menu-item#conta": {
+        "props": {
+            "blockClass": "menu-mobile-conta",
+            "id": "menu-item-category-conta",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "MINHA CONTA",
+                "text": "MINHA CONTA"
+            }
+        }
+    },
+    "menu-item#atendimento": {
+        "props": {
+            "blockClass": "menu-mobile-atendimento",
+            "id": "menu-item-category-atendimento",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "ATENDIMENTO AO CLIENTE",
+                "text": "ATENDIMENTO AO CLIENTE"
+            }
+        }
+    },
+    "menu-item#loja-parceira": {
+        "props": {
+            "blockClass": "menu-mobile-parceira",
+            "id": "menu-item-category-parceira",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "LOJAS PARCEIRAS",
+                "text": "LOJAS PARCEIRAS"
+            }
+        }
+    },
+    "menu-item#representante": {
+        "props": {
+            "blockClass": "menu-mobile-representante",
+            "id": "menu-item-category-representante",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "SEJA UM REPRESENTANTE",
+                "text": "SEJA UM REPRESENTANTE"
+            }
+        }
+    },
+    "menu-item#revendedor": {
+        "props": {
+            "blockClass": "menu-mobile-revendedor",
+            "id": "menu-item-category-revendedor",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": true,
+                "tagTitle": "SEJA UM REVENDEDOR",
+                "text": "SEJA UM REVENDEDOR"
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+.childrenContainer--menu-drawer-mobile {
+  -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+}

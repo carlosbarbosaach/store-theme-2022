@@ -1,0 +1,208 @@
+{
+    "flex-layout.row#departamentos": {
+        "children": [
+            "slider-layout#departamentos"
+        ],
+        "props": {
+            "blockClass": "slider-departamento"
+        }
+    },
+    "slider-layout#departamentos": {
+        "children": [
+            "flex-layout.col#carrossel1",
+            "flex-layout.col#carrossel2",
+            "flex-layout.col#carrossel3",
+            "flex-layout.col#carrossel4",
+            "flex-layout.col#carrossel5",
+            "flex-layout.col#carrossel6",
+            "flex-layout.col#carrossel7",
+            "flex-layout.col#carrossel8"
+        ],
+        "props": {
+            "blockClass": "all-departamento"
+        }
+    },
+    "flex-layout.col#carrossel1": {
+        "children": [
+            "image#carrossel1",
+            "rich-text#carrossel1"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel1": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/clothes___c3a9e2e14650448ec2511a871e1b8568.png"
+        }
+    },
+    "rich-text#carrossel1": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 1"
+        }
+    },
+    "flex-layout.col#carrossel2": {
+        "children": [
+            "image#carrossel2",
+            "rich-text#carrossel2"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel2": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/smartwatch___dcc5f4d8efde59888190c4ad91ee1ce0.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel2": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 2"
+        }
+    },
+    "flex-layout.col#carrossel3": {
+        "children": [
+            "image#carrossel3",
+            "rich-text#carrossel3"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel3": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/jackets___8b8d3dde6a1c7802a00d6cc0e6a2c2c1.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel3": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 3"
+        }
+    },
+    "flex-layout.col#carrossel4": {
+        "children": [
+            "image#carrossel4",
+            "rich-text#carrossel4"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel4": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/glasses___342c25abe1df1d99d53c5e09ea652c90.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel4": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 4"
+        }
+    },
+    "flex-layout.col#carrossel5": {
+        "children": [
+            "image#carrossel5",
+            "rich-text#carrossel5"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel5": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/hoodies___4e14fd67b7ec0ddf2c987386cb420ebf.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel5": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 5"
+        }
+    },
+    "flex-layout.col#carrossel6": {
+        "children": [
+            "image#carrossel6",
+            "rich-text#carrossel6"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel6": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/logo-games___c72de2ef5698ce580a860ff3d64f241a.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel6": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 6"
+        }
+    },
+    "flex-layout.col#carrossel7": {
+        "children": [
+            "image#carrossel7",
+            "rich-text#carrossel7"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel7": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/masks___fdf8856004208fc37f1d6c12717a7084.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel7": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 7"
+        }
+    },
+    "flex-layout.col#carrossel8": {
+        "children": [
+            "image#carrossel8",
+            "rich-text#carrossel8"
+        ],
+        "props": {
+            "blockClass": "depart-carrossel",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#carrossel8": {
+        "props": {
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/electronics___9ebae85c4364fac363971a1c30d7cd2d.png",
+            "maxWidth": "100%"
+        }
+    },
+    "rich-text#carrossel8": {
+        "props": {
+            "blockClass": "text-carrossel",
+            "text": "Departamento 8"
+        }
+    }
+}

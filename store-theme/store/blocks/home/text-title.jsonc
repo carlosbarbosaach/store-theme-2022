@@ -1,0 +1,8 @@
+{
+    "rich-text#shelf-title": {
+        "props": {
+            "text": "## TODOS OS DEPARTAMENTOS",
+            "blockClass": "shelfTitle"
+        }
+    }
+}

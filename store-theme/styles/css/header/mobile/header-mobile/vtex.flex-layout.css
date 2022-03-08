@@ -1,0 +1,18 @@
+.flexRowContent--main-header-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexRowContent--main-header-mobile2 {
+    display: block;
+}
+
+.flexRowContent--main-header-mobile2 :global(.vtex-input__suffix) {
+    background-color: rgb(83, 66, 241);
+}
+
+.flexRow--main-header-mobile2 {
+    justify-content: center;
+    background:  #eeeeee;
+}
+

@@ -1,0 +1,500 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass": [
+        "bloco-category-menu"
+      ],
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-all-departments",
+      "menu-item#category-departaments1",
+      "menu-item#departaments2",
+      "menu-item#category-novidades",
+      "menu-item#category-outlet"
+    ]
+  },
+  "menu-item#category-all-departments": {
+    "props": {
+      "blockClass": "menu-2022",
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all---departments/",
+        "noFollow": false,
+        "tagTitle": "Todos os Departamentos",
+        "text": "Todos os Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-all": {
+    "props": {
+      "blockClass": "lista-depart",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-all"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-all": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-all-departments1",
+      "menu-item#category-all-departments2",
+      "menu-item#category-all-departments3"
+    ]
+  },
+  "menu-item#category-all-departments1": {
+    "props": {
+      "blockClass": "list-dep",
+      "id": "menu-item-category-all-departments1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all---departments/departments1/",
+        "noFollow": false,
+        "tagTitle": "Departamento 1",
+        "text": "Departamento 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-category"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenu-category": {
+    "props": {
+      "blockClass": "lista-subdepart",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category-depart"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category-depart": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategory-1.1",
+      "menu-item#subcategory-2.2",
+      "menu-item#subcategory-3.3"
+    ]
+  },
+  "menu-item#subcategory-1.1": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-category-produto"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenu-category-produto": {
+    "props": {
+      "blockClass": "lista-sub-produto",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category-produto"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category-produto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategory-produto1",
+      "menu-item#subcategory-produto2",
+      "menu-item#subcategory-produto3"
+    ]
+  },
+  "menu-item#subcategory-produto1": {
+    "props": {
+      "blockClass": "subcategory-produto",
+      "id": "menu-item-category-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 1.0",
+        "text": "Produto 1.0"
+      }
+    }
+  },
+  "menu-item#subcategory-produto2": {
+    "props": {
+      "blockClass": "subcategory-produto",
+      "id": "menu-item-category-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 2.0",
+        "text": "Produto 2.0"
+      }
+    }
+  },
+  "menu-item#subcategory-produto3": {
+    "props": {
+      "blockClass": "subcategory-produto",
+      "id": "menu-item-category-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 3.0",
+        "text": "Produto 3.0"
+      }
+    }
+  },
+  "menu-item#subcategory-2.2": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.2"
+      }
+    }
+  },
+  "menu-item#subcategory-3.3": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.3"
+      }
+    }
+  },
+  "menu-item#category-all-departments2": {
+    "props": {
+      "blockClass": "list-dep",
+      "id": "menu-item-category-all-departments2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all---departments/departments2/",
+        "noFollow": false,
+        "tagTitle": "Departamento 2",
+        "text": "Departamento 2"
+      }
+    }
+  },
+  "menu-item#category-all-departments3": {
+    "props": {
+      "blockClass": "list-dep",
+      "id": "menu-item-category-all-departments3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all---departments/departments3/",
+        "noFollow": false,
+        "tagTitle": "Departamento 3",
+        "text": "Departamento 3"
+      }
+    }
+  },
+  "rich-text#outlet": {
+    "props": {
+      "blockClass": "menu-outlet",
+      "text": "[OUTLET](www.ggogle.com)"
+    }
+  },
+  "menu-item#category-departaments1": {
+    "props": {
+      "blockClass": "lista-dep-menu",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/departaments1---departaments2/",
+        "noFollow": false,
+        "tagTitle": "Departamento 1",
+        "text": "Departamento 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#depart-category-all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#depart-category-all": {
+    "props": {
+      "blockClass": "lista-depart",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#depart-category-all"
+    ]
+  },
+  "vtex.menu@2.x:menu#depart-category-all": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategory-1",
+      "menu-item#subcategory-2",
+      "menu-item#subcategory-3"
+    ]
+  },
+  "menu-item#subcategory-1": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-category-depart-produto"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenu-category-depart-produto": {
+    "props": {
+      "blockClass": "lista-sub-depart-produto",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category-depart-produto"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category-depart-produto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#subcategory-depart-produto1",
+      "menu-item#subcategory-depart-produto2",
+      "menu-item#subcategory-depart-produto3"
+    ]
+  },
+  "menu-item#subcategory-depart-produto1": {
+    "props": {
+      "blockClass": "subcategory-depart-produto",
+      "id": "menu-item-category-depart-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 1.1.1",
+        "text": "Produto 1.1.1"
+      }
+    }
+  },
+  "menu-item#subcategory-depart-produto2": {
+    "props": {
+      "blockClass": "subcategory-depart-produto",
+      "id": "menu-item-category-depart-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 2.2.2",
+        "text": "Produto 2.2.2"
+      }
+    }
+  },
+  "menu-item#subcategory-depart-produto3": {
+    "props": {
+      "blockClass": "subcategory-depart-produto",
+      "id": "menu-item-category-depart-produto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Produto 3.3.3",
+        "text": "Produto 3.3.3"
+      }
+    }
+  },
+  "menu-item#subcategory-2": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.2",
+        "text": "Category 1.2"
+      }
+    }
+  },
+  "menu-item#subcategory-3": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.3",
+        "text": "Category 1.3"
+      }
+    }
+  },
+  "menu-item#departaments2": {
+    "props": {
+      "blockClass": "lista-dep-menu",
+      "id": "menu-item-category-departaments3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 2",
+        "text": "Departamento 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#depart-subcategory-all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#depart-subcategory-all": {
+    "props": {
+      "blockClass": "lista-depart",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#depart-subcategory-desktop"
+    ]
+  },
+  "vtex.menu@2.x:menu#depart-subcategory-desktop": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#submenu-category-1",
+      "menu-item#submenu-category-2",
+      "menu-item#submenu-category-3"
+    ]
+  },
+  "menu-item#submenu-category-1": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.1"
+      }
+    }
+  },
+  "menu-item#submenu-category-2": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.2"
+      }
+    }
+  },
+  "menu-item#submenu-category-3": {
+    "props": {
+      "blockClass": "subcategory-desktop",
+      "id": "menu-item-category-departaments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Category 1.1",
+        "text": "Category 1.3"
+      }
+    }
+  },
+  "menu-item#category-novidades": {
+    "props": {
+      "blockClass": "menu-novidades",
+      "id": "menu-item-category-novidades",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    }
+  },
+  "menu-item#category-outlet": {
+    "props": {
+      "blockClass": "menu-outlet",
+      "id": "menu-item-category-outlet",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.flexRow--main-header {
+    display: block;
+}
+
+.flexRowContent--grid-2022 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* .flexCol {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0;
+} */
+
+.flexColChild--menu-carrinho {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+
+.flexCol--menu-carrinho {
+    flex-direction: row;
+}

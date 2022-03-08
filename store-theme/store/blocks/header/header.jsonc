@@ -1,0 +1,115 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-menu",
+      "flex-layout.row#logo-busca-desktop",
+      "flex-layout.row#category-menu"
+      // "flex-layout.row#3-desktop",
+      // "sticky-layout#4-desktop"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#logo-busca-desktop": {
+    "props": {
+      "blockClass": "main-header"
+    },
+    "children": [
+      "flex-layout.row#header-desktop"
+    ]
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "grid-2022",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#menu-carrinho"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.row#category-menu": {
+    "props": {
+      "blockClass": "main-header2",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "blockClass": [
+        "logo-avanti"
+      ],
+      "title": "Logo",
+      "href": "/",
+      "url": "http://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+      "width": "180"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Oque você procura?",
+      "autocompleteFullWidth": true
+    }
+  },
+  "flex-layout.col#menu-carrinho": {
+    "props": {
+      "blockClass": "menu-carrinho"
+    },
+    "children": [
+      "rich-text#atendimento",
+      "flex-layout.col#login",
+      "minicart.v2"
+    ]
+  },
+  "rich-text#atendimento": {
+    "props": {
+      "blockClass": "text-atendimento",
+      "text": "[Atendimento ao Cliente](www.google.com)"
+    }
+  },
+  "flex-layout.col#login": {
+    "props": {
+      "blockClass": "login-perfil"
+    },
+    "children": [
+      "login#perfil"
+    ]
+  },
+  "login#perfil": {
+    "props": {
+      "showIconProfile": false,
+      "hideIconLabel": true
+    }
+  }
+}

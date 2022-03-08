@@ -1,0 +1,205 @@
+.styledLinkContainer--menu-2022 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.styledLinkContent--menu-2022 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 40px;
+    line-height: 14px;
+    display: block;
+}
+
+.styledLinkContainer--lista-dep-menu {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.styledLinkContent--lista-dep-menu {
+    text-align: left;
+    letter-spacing: 1.2px;
+    color: #25282a;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.menuItem--menu-novidades {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+
+.menuItem--menu-outlet {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+
+.styledLinkContainer--menu-novidades {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.styledLinkContainer--menu-outlet {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.styledLinkContent--menu-novidades {
+    text-align: left;
+    letter-spacing: 1.2px;
+    color: #25282a;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.styledLinkContent--menu-outlet {
+    text-align: left;
+    letter-spacing: 1.2px;
+    color: #441afa;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.styledLink--menu-2022::before {
+    content: "";
+    width: 20px;
+    height: 13.35px;
+    float: left;
+    margin: 0 6px 0 0;
+    display: block;
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/menu-branco___d782ee8….png);
+}
+
+.styledLinkContent--lista-dep {
+    text-align: left;
+    color: #25282a;
+    font-size: 14px;
+}
+
+.submenuWrapper {
+    position: absolute;
+    left: -25px;
+    top: 0.5px;
+    height: 366px;
+    width: 298px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+}
+
+.styledLinkContent--list-dep {
+    text-align: left;
+    color: #25282a;
+    font-size: 14px;
+}
+
+.styledLinkContent--list-dep:hover {
+    text-align: left;
+    color: #441afa;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.styledLinkContent--subcategory-desktop {
+    text-align: left;
+    color: #25282a;
+    font-size: 14px;
+}
+
+.styledLinkContent--subcategory-desktop:hover {
+    text-align: left;
+    color: #441afa;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submenuWrapper--lista-subdepart {
+    position: absolute;
+    left: 275px;
+    top: -37px;
+    height: 366px;
+    width: 298px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+}
+
+.submenuWrapper--lista-sub-depart-produto {
+    position: absolute;
+    left: 275px;
+    top: -37px;
+    height: 366px;
+    width: 298px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+}
+
+.submenuWrapper--lista-sub-produto {
+    position: absolute;
+    left: 275px;
+    top: -37px;
+    height: 366px;
+    width: 298px;
+    background-color: white;
+    border: 1px solid #eeeeee;  
+}
+
+.styledLinkContent--subcategory-produto {
+    text-align: left;
+    color: #25282a;
+    font-size: 14px;
+}
+
+.styledLinkContent--subcategory-produto:hover {
+    text-align: left;
+    color: #441afa;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.styledLinkContent--subcategory-depart-produto {
+    text-align: left;
+    color: #25282a;
+    font-size: 14px;
+}
+
+.styledLinkContent--subcategory-depart-produto:hover {
+    text-align: left;
+    color: #441afa;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menuItem--list-dep:hover {
+    background: #eeeeee;
+    width: 298px;
+}
+
+.menuItem--subcategory-desktop:hover {
+    background: #eeeeee;
+    width: 298px;
+}
+
+.menuItem--subcategory-produto:hover {
+    background: #eeeeee;
+    width: 298px;
+}
+
+
+

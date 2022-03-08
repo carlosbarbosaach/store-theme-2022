@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#top-menu": {
+    "props": {
+      "blockClass": "notification-home"
+    },
+    "children": [
+      "flex-layout.col#notification-frete-gratis",
+      "flex-layout.col#notification-revendedor"
+    ]
+  },
+  "flex-layout.col#notification-frete-gratis": {
+    "props": {
+      "blockClass": "notification-home-left"
+    },
+    "children": [
+      "rich-text#top-menu-left"
+    ]
+  },
+  "rich-text#top-menu-left": {
+    "props": {
+      "blockClass": "first-row",
+      "text": "FRETE GRÁTIS ACIMA DE R$299,00 PARA REGIÃO SUDESTE"
+    }
+  },
+  "flex-layout.col#notification-revendedor": {
+    "props": {
+      "blockClass": "notification-home-right"
+    },
+    "children": [
+      "rich-text#top-menu-revendedor-representante"
+    ]
+  },
+  "rich-text#top-menu-revendedor-representante": {
+    "props": {
+      "blockClass": "first-row",
+      "text": "[Seja um Revendedor](www.google.com) | [Seja um Representante](www.facebook.com)"
+    }
+  }
+}

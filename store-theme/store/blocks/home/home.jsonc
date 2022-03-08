@@ -1,0 +1,74 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#departamentos",
+      // "flex-layout.row#shelf",
+      // "info-card#home",
+      // "rich-text#question",
+      // "rich-text#link",
+      "newsletter"
+    ]
+  },
+  "list-context.image-list#demo": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://images-ext-2.discordapp.net/external/4holdKQF-oaqbr_3exI7DdeeJ1qc-x4MMuUQT2Qarj8/https/avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png?width=901&height=331",
+          "mobileImage": "https://images-ext-2.discordapp.net/external/4holdKQF-oaqbr_3exI7DdeeJ1qc-x4MMuUQT2Qarj8/https/avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png?width=901&height=331"
+        },
+        {
+          "image": "https://images-ext-2.discordapp.net/external/4holdKQF-oaqbr_3exI7DdeeJ1qc-x4MMuUQT2Qarj8/https/avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png?width=901&height=331",
+          "mobileImage": "https://images-ext-2.discordapp.net/external/4holdKQF-oaqbr_3exI7DdeeJ1qc-x4MMuUQT2Qarj8/https/avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png?width=901&height=331"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}
